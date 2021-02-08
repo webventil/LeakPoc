@@ -8,19 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		1400709325D113900012AD13 /* LeaksPocApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1400709225D113900012AD13 /* LeaksPocApp.swift */; };
-		1400709525D113900012AD13 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1400709425D113900012AD13 /* ContentView.swift */; };
 		1400709725D113910012AD13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1400709625D113910012AD13 /* Assets.xcassets */; };
 		1400709A25D113910012AD13 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1400709925D113910012AD13 /* Preview Assets.xcassets */; };
+		140070A425D113C80012AD13 /* Sidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140070A325D113C80012AD13 /* Sidebar.swift */; };
+		140070A725D114970012AD13 /* LeakListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140070A625D114970012AD13 /* LeakListView.swift */; };
+		140070AA25D115360012AD13 /* LeakDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140070A925D115360012AD13 /* LeakDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1400708F25D113900012AD13 /* LeaksPoc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeaksPoc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1400709225D113900012AD13 /* LeaksPocApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaksPocApp.swift; sourceTree = "<group>"; };
-		1400709425D113900012AD13 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1400709625D113910012AD13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1400709925D113910012AD13 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1400709B25D113910012AD13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1400709C25D113910012AD13 /* LeaksPoc.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LeaksPoc.entitlements; sourceTree = "<group>"; };
+		140070A325D113C80012AD13 /* Sidebar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sidebar.swift; sourceTree = "<group>"; };
+		140070A625D114970012AD13 /* LeakListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeakListView.swift; sourceTree = "<group>"; };
+		140070A925D115360012AD13 /* LeakDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeakDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,11 +58,13 @@
 			isa = PBXGroup;
 			children = (
 				1400709225D113900012AD13 /* LeaksPocApp.swift */,
-				1400709425D113900012AD13 /* ContentView.swift */,
 				1400709625D113910012AD13 /* Assets.xcassets */,
 				1400709B25D113910012AD13 /* Info.plist */,
 				1400709C25D113910012AD13 /* LeaksPoc.entitlements */,
 				1400709825D113910012AD13 /* Preview Content */,
+				140070A325D113C80012AD13 /* Sidebar.swift */,
+				140070A625D114970012AD13 /* LeakListView.swift */,
+				140070A925D115360012AD13 /* LeakDetailView.swift */,
 			);
 			path = LeaksPoc;
 			sourceTree = "<group>";
@@ -140,8 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1400709525D113900012AD13 /* ContentView.swift in Sources */,
+				140070A725D114970012AD13 /* LeakListView.swift in Sources */,
+				140070A425D113C80012AD13 /* Sidebar.swift in Sources */,
 				1400709325D113900012AD13 /* LeaksPocApp.swift in Sources */,
+				140070AA25D115360012AD13 /* LeakDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
