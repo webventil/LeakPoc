@@ -11,7 +11,13 @@ import SwiftUI
 struct LeaksPocApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+                Sidebar()
+                    .listStyle(SidebarListStyle())
+                Text("")
+                    .frame(minWidth: 200)
+                Text("")
+            }
         }
     }
 }
