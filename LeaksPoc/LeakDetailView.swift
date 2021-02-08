@@ -13,11 +13,12 @@ struct LeakDetailView: View {
             Text("Here it leaks")
                 .font(.largeTitle)
             ForEach(0 ..< 10) { i in
-                NavigationLink(
-                    destination: Text("Destination"),
-                    label: {
-                        Text("Navigate")
-                    })
+                VStack(alignment: .leading) {
+                    Text("Title")
+                        .font(.headline)
+                    Text("Subtitle")
+                        .font(.subheadline)
+                }
             }
         }
     }

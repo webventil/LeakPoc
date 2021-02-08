@@ -13,6 +13,7 @@
 		140070A425D113C80012AD13 /* Sidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140070A325D113C80012AD13 /* Sidebar.swift */; };
 		140070A725D114970012AD13 /* LeakListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140070A625D114970012AD13 /* LeakListView.swift */; };
 		140070AA25D115360012AD13 /* LeakDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140070A925D115360012AD13 /* LeakDetailView.swift */; };
+		140070AE25D15CEE0012AD13 /* ScrollLeakView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140070AD25D15CEE0012AD13 /* ScrollLeakView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		140070A325D113C80012AD13 /* Sidebar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sidebar.swift; sourceTree = "<group>"; };
 		140070A625D114970012AD13 /* LeakListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeakListView.swift; sourceTree = "<group>"; };
 		140070A925D115360012AD13 /* LeakDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeakDetailView.swift; sourceTree = "<group>"; };
+		140070AD25D15CEE0012AD13 /* ScrollLeakView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollLeakView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				140070A325D113C80012AD13 /* Sidebar.swift */,
 				140070A625D114970012AD13 /* LeakListView.swift */,
 				140070A925D115360012AD13 /* LeakDetailView.swift */,
+				140070AD25D15CEE0012AD13 /* ScrollLeakView.swift */,
 			);
 			path = LeaksPoc;
 			sourceTree = "<group>";
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				140070AE25D15CEE0012AD13 /* ScrollLeakView.swift in Sources */,
 				140070A725D114970012AD13 /* LeakListView.swift in Sources */,
 				140070A425D113C80012AD13 /* Sidebar.swift in Sources */,
 				1400709325D113900012AD13 /* LeaksPocApp.swift in Sources */,

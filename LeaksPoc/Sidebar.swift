@@ -15,6 +15,11 @@ struct Sidebar: View {
                 label: {
                     Label("Leak", systemImage: "cloud.heavyrain")
                 })
+            NavigationLink(
+                destination: ScrollLeakView(),
+                label: {
+                    Label("ScrollLeak", systemImage: "cloud.bolt.rain")
+                })
         }
     }
 }
